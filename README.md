@@ -4,8 +4,8 @@ Repository to host the Obstacle Avoidance Service
 ## Updating the Package
 The `publish_deb.sh` script automates publishing the Debian package to a Git-hosted APT repository:
 - Copies the latest `ascend-oa.deb` file into the current repository folder.
-- Generates Packages and Packages.gz metadata for the APT repository.
-- Creates Release, Release.gpg, and InRelease files signed with your GPG key.
+- Generates `Packages.gz` metadata for the APT repository.
+- Creates `Release.gpg` and `InRelease` files signed with your GPG key.
 - Commits and pushes all changes to the Git repository.
 
 ## Installation
@@ -21,7 +21,7 @@ sudo curl -s --compressed -o /etc/apt/sources.list.d/ascend-oa.list "https://Asc
 sudo apt update
 
 # Install 
-sudo apt install ascned-oa
+sudo apt install ascend-oa
 ```
 
 ## Update
@@ -34,17 +34,17 @@ sudo apt remove ascend-oa
 sudo apt update
 
 # Install 
-sudo apt install ascned-oa
+sudo apt install ascend-oa
 ```
 
 ## Uninstall
 To uninstall the service completely:
 ```bash
+sudo apt remove ascend-oa
+
 sudo rm /etc/apt/sources.list.d/ascend-oa.list
 
 sudo rm /etc/apt/trusted.gpg.d/ascend-oa.gpg
-
-sudo apt remove ascend-oa
 ```
 
 
