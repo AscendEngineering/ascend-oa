@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: Apoorv Thapliyal <apoorv@ascendengineer.com>
 Installed-Size: 15948
 Filename: ./ascend-oa.deb
-Size: 9085782
-MD5sum: dc041dee1bacd43819da0da3dfe33351
-SHA1: 03dafaf7d407a75bfefd34a6c84457e1594a0924
-SHA256: af5d41ba3c7a5360b132fbe91b83c77be6063db3f4f3d646f258649e9eb1062e
+Size: 9279866
+MD5sum: 6bc510d18684bb92c0970a1bb553c588
+SHA1: da967b5c0e0abac9814a2dd33f0e9d75b222cbf2
+SHA256: c4d306cf62caa841d6b42d4ca97ddd95f70431ac807d1b482846264578b358a5
 Homepage: https://github.com/AscendEngineering/sf45_oa
 Description: Obstacle avoidance package for PX4 drones
 
